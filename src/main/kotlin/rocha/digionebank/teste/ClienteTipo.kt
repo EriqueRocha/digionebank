@@ -1,6 +1,6 @@
 package rocha.digionebank.teste
 
-enum class ClienteTipo(descricao: String) {
+enum class ClienteTipo(val descricao: String) {
 
     PF("Pessoa Física"),
     PJ("Pessoa Jurídica");
